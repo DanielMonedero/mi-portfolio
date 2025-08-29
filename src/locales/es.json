@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "studies": "Estudios",
+    "experience": "Experiencia",
+    "certifications": "Certificaciones",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Hola, soy {{name}}",
+    "subtitle": "Desarrollador Fullstack"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "studies": "Studies",
+    "experience": "Experience",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm {{name}}",
+    "subtitle": "Fullstack Developer"
+  }
+}
