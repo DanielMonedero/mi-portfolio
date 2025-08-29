@@ -1,15 +1,23 @@
 <template>
-  <nav>
-    <ul>
-      <li><a href="#home">{{ $t('nav.home') }}</a></li>
-      <li><a href="#studies">{{ $t('nav.studies') }}</a></li>
-      <li><a href="#experience">{{ $t('nav.experience') }}</a></li>
-      <li><a href="#certifications">{{ $t('nav.certifications') }}</a></li>
-      <li><a href="#contact">{{ $t('nav.contact') }}</a></li>
-    </ul>
-    <select v-model="$i18n.locale">
-      <option value="es">ES</option>
-      <option value="en">EN</option>
-    </select>
-  </nav>
+  <div>
+    <Navbar />
+    <main>
+      <HeroSection />
+      <StudiesSection />
+      <ExperienceSection />
+      <CertificationsSection />
+      <ContactSection />
+    </main>
+    <Footer />
+  </div>
 </template>
+
+<script setup>
+import Navbar from './components/NavBar.vue'
+import HeroSection from './components/HeroSection.vue'
+import StudiesSection from './components/StudiesSection.vue'
+import ExperienceSection from './components/ExperienceSection.vue'
+import CertificationsSection from './components/CertificationsSection.vue'
+import ContactSection from './components/ContactSection.vue'
+import Footer from './components/Footer.vue'
+</script>

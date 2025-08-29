@@ -9,6 +9,10 @@
         <li><a href="#experience" class="hover:text-white">{{ $t('nav.experience') }}</a></li>
         <li><a href="#certifications" class="hover:text-white">{{ $t('nav.certifications') }}</a></li>
         <li><a href="#contact" class="hover:text-white">{{ $t('nav.contact') }}</a></li>
+        <li><a href="#contact" class="hover:text-white">{{ $t('nav.contact') }}</a></li>
+        <li><a href="#contact" class="hover:text-white">{{ $t('nav.contact') }}</a></li>
+        <li><a href="#contact" class="hover:text-white">{{ $t('nav.contact') }}</a></li>
+        <li>hola</li>
       </ul>
 
       <select v-model="$i18n.locale" class="ml-4 px-2 py-1 rounded bg-gray-800 text-white border border-gray-700">
