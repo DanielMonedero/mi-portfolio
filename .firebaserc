@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "portfolio-daniel-monedero"
-  }
+    "portfolio": "danielmonedero-dev"
+  },
+  "targets": {},
+  "etags": {}
 }
