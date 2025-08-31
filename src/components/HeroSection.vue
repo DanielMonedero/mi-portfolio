@@ -5,7 +5,7 @@
   >
     <!-- Título -->
     <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
-      {{ $t('hero.title', { name: 'Tu Nombre' }) }}
+      {{ $t('hero.title') }}
     </h1>
 
     <!-- Subtítulo -->

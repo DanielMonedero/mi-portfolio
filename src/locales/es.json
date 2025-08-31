@@ -7,7 +7,26 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Hola, soy {{name}}",
+    "title": "Hola, soy Daniel",
     "subtitle": "Desarrollador Fullstack"
+  },
+  "studies": {
+    "title": "Mis Estudios"
+  },
+  "experience": {
+    "title": "Experiencia Laboral"
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "verify": "Verificar"
+  },
+  "contact": {
+    "title": "Hablemos",
+    "subtitle": "¿Quieres colaborar o tienes alguna pregunta? ¡No dudes en escribirme!",
+    "email": "Envíame un Email",
+    "send": "Enviar Mensaje"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
   }
 }

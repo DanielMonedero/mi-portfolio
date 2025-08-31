@@ -1,3 +1,41 @@
 <template>
-  <h1>Estudios</h1>
+  <section
+    id="studies"
+    class="py-20 bg-gradient-to-b from-gray-800 to-gray-900 text-white px-6"
+  >
+    <!-- Título -->
+    <h2 class="text-3xl md:text-5xl font-bold text-center mb-12">
+      {{ $t('studies.title') }}
+    </h2>
+
+    <!-- Lista de estudios -->
+    <div class="max-w-4xl mx-auto space-y-8">
+      <div
+        v-for="(study, index) in studies"
+        :key="index"
+        class="relative bg-gray-700 p-6 rounded-2xl shadow-lg hover:shadow-xl transition"
+      >
+        <h3 class="text-xl font-semibold text-blue-400 mb-2">
+          {{ study.degree }}
+        </h3>
+        <p class="text-gray-300">{{ study.institution }}</p>
+        <p class="text-sm text-gray-400">{{ study.period }}</p>
+      </div>
+    </div>
+  </section>
 </template>
+
+<script setup>
+const studies = [
+  {
+    degree: 'Ingeniería Informática',
+    institution: 'Universidad XYZ',
+    period: '2015 - 2020',
+  },
+  {
+    degree: 'Máster en Ciberseguridad',
+    institution: 'Instituto ABC',
+    period: '2021 - 2022',
+  },
+]
+</script>

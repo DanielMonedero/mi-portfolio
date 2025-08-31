@@ -7,7 +7,26 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Hi, I'm {{name}}",
+    "title": "Hi, I'm Daniel Monedero Cabrera",
     "subtitle": "Fullstack Developer"
+  },
+  "studies": {
+    "title": "My Studies"
+  },
+  "experience": {
+    "title": "Work Experience"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "verify": "Verify"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Do you want to work together or have any questions? Feel free to reach out!",
+    "email": "Send me an Email",
+    "send": "Send Message"
+  },
+  "footer": {
+    "rights": "All rights reserved."
   }
 }
