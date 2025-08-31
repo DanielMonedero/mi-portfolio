@@ -30,7 +30,7 @@ const studies = [
   {
     degree: 'Grado en Computación e Inteligencia Artificial',
     institution: 'Universidad Alfonso X el Sabio',
-    period: 'Octubre 2024 - 2028',
+    period: 'Octubre 2024 - Presente',
   },
   {
     degree: 'Técnico Superior en Desarrollo de Aplicaciones Multiplataforma',
