@@ -28,14 +28,19 @@
 <script setup>
 const studies = [
   {
-    degree: 'Ingeniería Informática',
-    institution: 'Universidad XYZ',
-    period: '2015 - 2020',
+    degree: 'Grado en Computación e Inteligencia Artificial',
+    institution: 'Universidad Alfonso X el Sabio',
+    period: 'Octubre 2024 - 2028',
   },
   {
-    degree: 'Máster en Ciberseguridad',
-    institution: 'Instituto ABC',
-    period: '2021 - 2022',
+    degree: 'Técnico Superior en Desarrollo de Aplicaciones Multiplataforma',
+    institution: 'U-tad',
+    period: 'Septiembre 2022 - Junio 2024',
+  },
+  {
+    degree: 'Técnico en Sistemas Microinformáticos y Redes',
+    institution: 'IES Los Cerros de Úbeda',
+    period: 'Septiembre 2020 - Junio 2022',
   },
 ]
 </script>

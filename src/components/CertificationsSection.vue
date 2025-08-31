@@ -39,22 +39,10 @@
 <script setup>
 const certifications = [
   {
-    name: 'AWS Certified Solutions Architect – Associate',
-    issuer: 'Amazon Web Services',
-    year: '2023',
-    link: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/',
-  },
-  {
-    name: 'Google Cloud Professional Cloud Architect',
-    issuer: 'Google Cloud',
-    year: '2022',
-    link: 'https://cloud.google.com/certification/cloud-architect',
-  },
-  {
-    name: 'Scrum Master Certified (SMC)',
-    issuer: 'Scrum Alliance',
-    year: '2021',
-    link: null,
+    name: 'Microsoft Certified: Azure Fundamentals',
+    issuer: 'Microsoft',
+    year: '2024',
+    link: 'https://learn.microsoft.com/en-us/users/danielmonederocabrera-2960/credentials/a8e2fc30af1815fc?ref=https%3A%2F%2Fwww.linkedin.com%2F',
   },
 ]
 </script>

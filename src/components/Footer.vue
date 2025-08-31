@@ -11,7 +11,7 @@
       <!-- Links -->
       <div class="flex gap-6">
         <a
-          href="mailto:tuemail@correo.com"
+          href="mailto:danimc2002.dmc@gmail.com"
           class="hover:text-white transition"
         >
           Email

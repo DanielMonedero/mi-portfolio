@@ -37,23 +37,31 @@
 <script setup>
 const experience = [
   {
-    role: 'Desarrollador Frontend',
-    company: 'TechCorp',
-    period: '2020 - 2022',
+    role: 'Desarrollador de Software',
+    company: 'Exceltic',
+    period: 'Julio 2024 - Presente',
     tasks: [
-      'Implementación de interfaces modernas con Vue y Tailwind.',
-      'Optimización del rendimiento y accesibilidad web.',
-      'Colaboración con equipos de backend para integración de APIs.',
+      'Desarrollo desde cero de una app web completa.',
+      'Backend con Java Spring Boot, Frontend con Vue.js 3.',
+      'Integración con Oracle, Docker y Jenkins.'
     ],
   },
   {
-    role: 'Ingeniero de Software',
-    company: 'InnovateX',
-    period: '2022 - Presente',
+    role: 'Desarrollador de Software (Prácticas)',
+    company: 'Exceltic',
+    period: 'Marzo 2024 - Junio 2024',
     tasks: [
-      'Diseño de arquitecturas escalables en aplicaciones SPA.',
-      'Automatización de procesos con CI/CD.',
-      'Mentoría a desarrolladores junior.',
+      'Participación en proyectos de desarrollo web.',
+      'Aprendizaje y colaboración con el equipo senior.'
+    ],
+  },
+  {
+    role: 'Técnico en Sistemas Microinformáticos y Redes',
+    company: 'Datamac Informática',
+    period: 'Septiembre 2021 - Junio 2022',
+    tasks: [
+      'Mantenimiento de sistemas y redes.',
+      'Soporte técnico a usuarios.'
     ],
   },
 ]
