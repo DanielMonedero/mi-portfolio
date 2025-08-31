@@ -16,13 +16,13 @@
     <!-- Datos de contacto -->
     <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-12">
       <a
-        href="mailto:tuemail@correo.com"
+        href="mailto:danimc2002.dmc@gmail.com"
         class="px-6 py-3 bg-blue-600 rounded-full shadow-lg hover:bg-blue-500 transition duration-300"
       >
         {{ $t('contact.email') }}
       </a>
       <a
-        href="https://linkedin.com/in/tuusuario"
+        href="https://www.linkedin.com/in/daniel-monedero-cabrera/"
         target="_blank"
         rel="noopener noreferrer"
         class="px-6 py-3 bg-gray-700 rounded-full shadow-lg hover:bg-gray-600 transition duration-300"
@@ -30,7 +30,7 @@
         LinkedIn
       </a>
       <a
-        href="https://github.com/tuusuario"
+        href="https://github.com/DanielMonedero/"
         target="_blank"
         rel="noopener noreferrer"
         class="px-6 py-3 bg-gray-700 rounded-full shadow-lg hover:bg-gray-600 transition duration-300"
