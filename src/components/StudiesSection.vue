@@ -16,10 +16,10 @@
         class="relative bg-gray-700 p-6 rounded-2xl shadow-lg hover:shadow-xl transition"
       >
         <h3 class="text-xl font-semibold text-blue-400 mb-2">
-          {{ study.degree }}
+          {{ $t(study.degree) }}
         </h3>
-        <p class="text-gray-300">{{ study.institution }}</p>
-        <p class="text-sm text-gray-400">{{ study.period }}</p>
+        <p class="text-gray-300">{{ $t(study.institution) }}</p>
+        <p class="text-sm text-gray-400">{{ $t(study.period) }}</p>
       </div>
     </div>
   </section>
@@ -28,19 +28,19 @@
 <script setup>
 const studies = [
   {
-    degree: 'Grado en Computación e Inteligencia Artificial',
-    institution: 'Universidad Alfonso X el Sabio',
-    period: 'Octubre 2024 - Presente',
+    degree: 'studies.items.degree1',
+    institution: 'studies.items.institution1',
+    period: 'studies.items.period1',
   },
   {
-    degree: 'Técnico Superior en Desarrollo de Aplicaciones Multiplataforma',
-    institution: 'U-tad',
-    period: 'Septiembre 2022 - Junio 2024',
+    degree: 'studies.items.degree2',
+    institution: 'studies.items.institution2',
+    period: 'studies.items.period2',
   },
   {
-    degree: 'Técnico en Sistemas Microinformáticos y Redes',
-    institution: 'IES Los Cerros de Úbeda',
-    period: 'Septiembre 2020 - Junio 2022',
+    degree: 'studies.items.degree3',
+    institution: 'studies.items.institution3',
+    period: 'studies.items.period3',
   },
 ]
 </script>

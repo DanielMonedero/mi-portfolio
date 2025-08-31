@@ -1,32 +1,65 @@
 {
-  "nav": {
-    "home": "Home",
-    "studies": "Studies",
-    "experience": "Experience",
-    "certifications": "Certifications",
-    "contact": "Contact"
-  },
-  "hero": {
-    "title": "Hi, I'm Daniel",
-    "subtitle": "Junior Fullstack Developer and Computer Engineering & Artificial Intelligence Student"
-  },
+  "nav": { "home": "Home", "studies": "Studies", "experience": "Experience", "certifications": "Certifications", "contact": "Contact" },
+  "hero": { "title": "Hi, I'm Daniel", "subtitle": "Junior Fullstack Developer and Computer Engineering & Artificial Intelligence Student" },
   "studies": {
-    "title": "My Studies"
+    "title": "My Studies",
+    "items": {
+      "degree1": "Bachelor in Computer Engineering & Artificial Intelligence",
+      "institution1": "Alfonso X el Sabio University",
+      "period1": "October 2024 - Present",
+      "degree2": "Higher Technician in Multiplatform Application Development",
+      "institution2": "U-tad",
+      "period2": "September 2022 - June 2024",
+      "degree3": "Technician in Microcomputer Systems and Networks",
+      "institution3": "IES Los Cerros de Úbeda",
+      "period3": "September 2020 - June 2022"
+    }
   },
   "experience": {
-    "title": "Work Experience"
+    "title": "Work Experience",
+    "items": [
+      {
+        "role": "Software Developer",
+        "company": "Exceltic",
+        "period": "July 2024 - Present",
+        "tasks": [
+          "Developed a full web app from scratch.",
+          "Backend with Java Spring Boot, Frontend with Vue.js 3.",
+          "Integration with Oracle, Docker, and Jenkins."
+        ]
+      },
+      {
+        "role": "Software Developer (Internship)",
+        "company": "Exceltic",
+        "period": "March 2024 - June 2024",
+        "tasks": [
+          "Participation in web development projects.",
+          "Learning and collaboration with the senior team."
+        ]
+      },
+      {
+        "role": "Technician in Microcomputer Systems and Networks",
+        "company": "Datamac Informática",
+        "period": "September 2021 - June 2022",
+        "tasks": [
+          "Maintenance of systems and networks.",
+          "Technical support for users."
+        ]
+      }
+    ]
   },
   "certifications": {
     "title": "Certifications",
-    "verify": "Verify"
+    "verify": "Verify",
+    "items": [
+      {
+        "name": "Microsoft Certified: Azure Fundamentals",
+        "issuer": "Microsoft",
+        "year": "2024",
+        "link": "https://learn.microsoft.com/en-us/users/danielmonederocabrera-2960/credentials/a8e2fc30af1815fc?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+      }
+    ]
   },
-  "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Do you want to work together or have any questions? Feel free to reach out!",
-    "email": "Send me an Email",
-    "send": "Send Message"
-  },
-  "footer": {
-    "rights": "All rights reserved."
-  }
+  "contact": { "title": "Get in Touch", "subtitle": "Do you want to work together or have any questions? Feel free to reach out!", "email": "Send me an Email", "send": "Send Message" },
+  "footer": { "rights": "All rights reserved." }
 }

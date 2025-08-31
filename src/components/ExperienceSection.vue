@@ -17,16 +17,16 @@
       >
         <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
           <h3 class="text-xl font-semibold text-blue-400">
-            {{ job.role }}
+            {{ $t(job.role) }}
           </h3>
-          <p class="text-sm text-gray-400">{{ job.period }}</p>
+          <p class="text-sm text-gray-400">{{ $t(job.period) }}</p>
         </div>
 
-        <p class="text-gray-300 mb-2">{{ job.company }}</p>
+        <p class="text-gray-300 mb-2">{{ $t(job.company) }}</p>
 
         <ul class="list-disc list-inside space-y-1 text-gray-400">
           <li v-for="(task, tIndex) in job.tasks" :key="tIndex">
-            {{ task }}
+            {{ $t(task) }}
           </li>
         </ul>
       </div>
@@ -37,32 +37,32 @@
 <script setup>
 const experience = [
   {
-    role: 'Desarrollador de Software',
-    company: 'Exceltic',
-    period: 'Julio 2024 - Presente',
+    role: 'experience.items[0].role',
+    company: 'experience.items[0].company',
+    period: 'experience.items[0].period',
     tasks: [
-      'Desarrollo desde cero de una app web completa.',
-      'Backend con Java Spring Boot, Frontend con Vue.js 3.',
-      'Integración con Oracle, Docker y Jenkins.'
-    ],
+      'experience.items[0].tasks[0]',
+      'experience.items[0].tasks[1]',
+      'experience.items[0].tasks[2]'
+    ]
   },
   {
-    role: 'Desarrollador de Software (Prácticas)',
-    company: 'Exceltic',
-    period: 'Marzo 2024 - Junio 2024',
+    role: 'experience.items[1].role',
+    company: 'experience.items[1].company',
+    period: 'experience.items[1].period',
     tasks: [
-      'Participación en proyectos de desarrollo web.',
-      'Aprendizaje y colaboración con el equipo senior.'
-    ],
+      'experience.items[1].tasks[0]',
+      'experience.items[1].tasks[1]'
+    ]
   },
   {
-    role: 'Técnico en Sistemas Microinformáticos y Redes',
-    company: 'Datamac Informática',
-    period: 'Septiembre 2021 - Junio 2022',
+    role: 'experience.items[2].role',
+    company: 'experience.items[2].company',
+    period: 'experience.items[2].period',
     tasks: [
-      'Mantenimiento de sistemas y redes.',
-      'Soporte técnico a usuarios.'
-    ],
-  },
+      'experience.items[2].tasks[0]',
+      'experience.items[2].tasks[1]'
+    ]
+  }
 ]
 </script>

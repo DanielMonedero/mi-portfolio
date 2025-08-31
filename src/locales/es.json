@@ -1,32 +1,65 @@
 {
-  "nav": {
-    "home": "Inicio",
-    "studies": "Estudios",
-    "experience": "Experiencia",
-    "certifications": "Certificaciones",
-    "contact": "Contacto"
-  },
-  "hero": {
-    "title": "Hola, soy Daniel",
-    "subtitle": "Desarrollador Fullstack junior y estudiante de Ingeniería en Computación e Inteligencia Artificial"
-  },
+  "nav": { "home": "Inicio", "studies": "Estudios", "experience": "Experiencia", "certifications": "Certificaciones", "contact": "Contacto" },
+  "hero": { "title": "Hola, soy Daniel", "subtitle": "Desarrollador Fullstack junior y estudiante de Ingeniería en Computación e Inteligencia Artificial" },
   "studies": {
-    "title": "Mis Estudios"
+    "title": "Mis Estudios",
+    "items": {
+      "degree1": "Grado en Computación e Inteligencia Artificial",
+      "institution1": "Universidad Alfonso X el Sabio",
+      "period1": "Octubre 2024 - Presente",
+      "degree2": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+      "institution2": "U-tad",
+      "period2": "Septiembre 2022 - Junio 2024",
+      "degree3": "Técnico en Sistemas Microinformáticos y Redes",
+      "institution3": "IES Los Cerros de Úbeda",
+      "period3": "Septiembre 2020 - Junio 2022"
+    }
   },
   "experience": {
-    "title": "Experiencia Laboral"
+    "title": "Experiencia Laboral",
+    "items": [
+      {
+        "role": "Desarrollador de Software",
+        "company": "Exceltic",
+        "period": "Julio 2024 - Presente",
+        "tasks": [
+          "Desarrollo desde cero de una app web completa.",
+          "Backend con Java Spring Boot, Frontend con Vue.js 3.",
+          "Integración con Oracle, Docker y Jenkins."
+        ]
+      },
+      {
+        "role": "Desarrollador de Software (Prácticas)",
+        "company": "Exceltic",
+        "period": "Marzo 2024 - Junio 2024",
+        "tasks": [
+          "Participación en proyectos de desarrollo web.",
+          "Aprendizaje y colaboración con el equipo senior."
+        ]
+      },
+      {
+        "role": "Técnico en Sistemas Microinformáticos y Redes",
+        "company": "Datamac Informática",
+        "period": "Septiembre 2021 - Junio 2022",
+        "tasks": [
+          "Mantenimiento de sistemas y redes.",
+          "Soporte técnico a usuarios."
+        ]
+      }
+    ]
   },
   "certifications": {
     "title": "Certificaciones",
-    "verify": "Verificar"
+    "verify": "Verificar",
+    "items": [
+      {
+        "name": "Microsoft Certified: Azure Fundamentals",
+        "issuer": "Microsoft",
+        "year": "2024",
+        "link": "https://learn.microsoft.com/en-us/users/danielmonederocabrera-2960/credentials/a8e2fc30af1815fc?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+      }
+    ]
   },
-  "contact": {
-    "title": "Hablemos",
-    "subtitle": "¿Quieres colaborar o tienes alguna pregunta? ¡No dudes en escribirme!",
-    "email": "Envíame un Email",
-    "send": "Enviar Mensaje"
-  },
-  "footer": {
-    "rights": "Todos los derechos reservados."
-  }
+  "contact": { "title": "Hablemos", "subtitle": "¿Quieres colaborar o tienes alguna pregunta? ¡No dudes en escribirme!", "email": "Envíame un Email", "send": "Enviar Mensaje" },
+  "footer": { "rights": "Todos los derechos reservados." }
 }
